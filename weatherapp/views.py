@@ -16,9 +16,7 @@ def HomePage(request):
     PARAMS = {'q':city,'appid':APID,'units':'Metric'}
     r = requests.get(url=URL , params=PARAMS)
     res  = r.json()
-    # description = res['weather'][0]['description']
-    # icon = res['weather'][0]['icon']
-    # main = res['weather'][0]['main']
+   
     temp = res['main']['temp']
     humidity = res['main']['humidity']
     wind = res['wind']['speed']
