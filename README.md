@@ -25,7 +25,7 @@ Install the requests library to make API calls: pip install requests
 
 4) Views (weatherapp/views.py):
 
-Create a view function in weather/views.py to handle user requests and retrieve weather data:
+Create a view function in weatherapp/views.py to handle user requests and retrieve weather data:
 
 
 5) Templates (weatherapp/templates/index.html)
